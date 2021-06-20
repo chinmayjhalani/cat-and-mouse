@@ -39,11 +39,11 @@ function keyPressed(){
 if(keyCode === LEFT_ARROW){
    tom.velocityX =-5 
    tom.addAnimation("tom2",tom2)
-   tom.changeAnimation("tom3",tom3)
+   tom.changeAnimation(tom3)
 
    jerry.addAnimation("jerry2",jerry2)
    jerry.frameDelay=25;
-   jerry.changeAnimation("jerry3",jerry3)
+   jerry.changeAnimation( jerry3)
 }
 
 }
